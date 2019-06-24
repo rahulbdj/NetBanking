@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="701.0" prefWidth="430.0" style="-fx-background-color: #b94646;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="47.0" prefHeight="27.0" prefWidth="223.0" text="CREATE ACCOUNT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="93.0" text="Account Holder Details" textFill="#ffe6e6">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="158.0" text="Name" textFill="#ffe6e6">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="196.0" text="Father's/Spouse Name" textFill="#ffe6e6" />
+      <Label layoutX="51.0" layoutY="232.0" text="DOB" textFill="#ffe6e6" />
+      <Label layoutX="53.0" layoutY="269.0" text="Age" textFill="#ffe6e6" />
+      <Label layoutX="50.0" layoutY="309.0" text="Gender" textFill="#ffe6e6" />
+      <TextField layoutX="197.0" layoutY="155.0" />
+      <TextField layoutX="197.0" layoutY="192.0" />
+      <DatePicker layoutX="197.0" layoutY="228.0" />
+      <TextField layoutX="197.0" layoutY="265.0" />
+      <RadioButton layoutX="197.0" layoutY="309.0" mnemonicParsing="false" text="Male" textFill="#ffe6e6" />
+      <RadioButton layoutX="259.0" layoutY="309.0" mnemonicParsing="false" text="Female" textFill="#ffe6e6" />
+      <RadioButton layoutX="328.0" layoutY="309.0" mnemonicParsing="false" text="Other" textFill="#ffe6e6" />
+      <Label layoutX="50.0" layoutY="344.0" text="Marital Status" textFill="#ffe6e6" />
+      <Label layoutX="50.0" layoutY="378.0" text="Permanent Address" textFill="#ffe6e6" />
+      <Label layoutX="50.0" layoutY="413.0" text="Contact No." textFill="#ffe6e6" />
+      <Label layoutX="50.0" layoutY="445.0" text="Email Id" textFill="#ffe6e6" />
+      <Label layoutX="50.0" layoutY="479.0" text="Aadhar No." textFill="#ffe6e6" />
+      <Label layoutX="50.0" layoutY="512.0" text="PAN No." textFill="#ffe6e6" />
+      <Label layoutX="50.0" layoutY="544.0" text="Occupation" textFill="#ffe6e6" />
+      <RadioButton layoutX="197.0" layoutY="344.0" mnemonicParsing="false" text="Yes" textFill="#ffe6e6" />
+      <RadioButton layoutX="259.0" layoutY="344.0" mnemonicParsing="false" text="No" textFill="#ffe6e6" />
+      <TextField layoutX="197.0" layoutY="374.0" />
+      <TextField layoutX="197.0" layoutY="409.0" />
+      <TextField layoutX="197.0" layoutY="441.0" />
+      <TextField layoutX="197.0" layoutY="475.0" />
+      <TextField layoutX="197.0" layoutY="508.0" />
+      <ComboBox layoutX="196.0" layoutY="540.0" prefWidth="150.0" />
+      <Button layoutX="200.0" layoutY="608.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="52.0" style="-fx-background-color: #e60000;" text="Next" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="701.0" prefWidth="431.0" style="-fx-background-color: #8000ff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ComboboxController">
+   <children>
+      <Label alignment="CENTER" layoutX="68.0" layoutY="104.0" prefHeight="34.0" prefWidth="293.0" text=" Account is created successfully" textFill="#ffe6e6">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Label layoutX="84.0" layoutY="199.0" text="Your Account No. is" textFill="#ffe6e6">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button contentDisplay="CENTER" layoutX="188.0" layoutY="295.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="54.0" style="-fx-background-color: #e60000;" text="OK" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="242.0" layoutY="203.0" prefHeight="18.0" prefWidth="108.0" style="-fx-background-color: #0066ff;" textFill="#161615" />
+   </children>
+</AnchorPane>

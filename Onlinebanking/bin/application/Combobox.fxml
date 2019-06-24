@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="515.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <ComboBox fx:id="combobox" layoutX="235.0" layoutY="133.0" onAction="#comboboxaction" prefWidth="150.0" promptText="select occupation" />
+      <TextField layoutX="68.0" layoutY="133.0" promptText="Occupation" />
+   </children>
+</AnchorPane>
